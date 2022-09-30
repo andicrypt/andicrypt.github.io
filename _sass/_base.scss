@@ -266,6 +266,91 @@ blockquote {
   }
 }
 
+.footer-wrapper{
+  font: 400 16px/1.5 "Lora",serif;
+  color: #111;
+  -webkit-text-size-adjust: 100%;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: calc(800px - (30px));
+  padding-right: 15px;
+  padding-left: 15px;
+
+  .footer-heading {
+    font: 400 16px/1.5 "Lora",serif;
+    color: #111;
+    -webkit-text-size-adjust: 100%;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .footer-col-wrapper{
+    font: 400 16px/1.5 "Lora",serif;
+    -webkit-text-size-adjust: 100%;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    font-size: 15px;
+    color: #828282;
+    margin-left: -15px;
+
+    .footer-col-footer-col-1 {
+      font: 400 16px/1.5 "Lora",serif;
+      -webkit-text-size-adjust: 100%;
+      font-feature-settings: "kern" 1;
+      font-kerning: normal;
+      font-size: 15px;
+      color: #828282;
+      float: left;
+      margin-bottom: 15px;
+      padding-left: 15px;
+      width: calc(50% - (30px / 2));
+
+      .contact-list {
+        font: 400 16px/1.5 "Lora",serif;
+        -webkit-text-size-adjust: 100%;
+        font-feature-settings: "kern" 1;
+        font-kerning: normal;
+        font-size: 15px;
+        color: #828282;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 15px;
+        list-style: none;
+        margin-left: 0;
+
+        icon-icon--github{
+          font: 400 16px/1.5 "Lora",serif;
+          -webkit-text-size-adjust: 100%;
+          font-feature-settings: "kern" 1;
+          font-kerning: normal;
+          font-size: 15px;
+          list-style: none;
+          color: #2a7ae2;
+        }
+        
+        .username {
+          font: 400 16px/1.5 "Lora",serif;
+          -webkit-text-size-adjust: 100%;
+          font-feature-settings: "kern" 1;
+          font-kerning: normal;
+          font-size: 15px;
+          list-style: none;
+          color: #2a7ae2;
+        }
+      }
+    }
+  }    
+}
+
+
+
 
 // Footer
 footer.fixed-bottom {
