@@ -7,7 +7,7 @@
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
+                <span class="font-weight-bold" style="color:#828282">{{- site.first_name -}}&nbsp;</span>
               {%- endif -%}
               {%- if site.middle_name -%}
                 {{- site.middle_name -}}&nbsp;
@@ -90,12 +90,12 @@
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
+              <!-- <li class="toggle-container">
+                <button id="light-toggle" title="Change theme" style="color:#828282">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </button>
-              </li>
+              </li> -->
               {%- endif %}
             </ul>
           </div>
